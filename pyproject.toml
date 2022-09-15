@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "onetp-api"
+version = "0.1.0"
+description = ""
+authors = ["Santiago Cézar <santiagocezar2013@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.84.0"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+uvicorn = {extras = ["standard"], version = "^0.18.3"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
